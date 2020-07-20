@@ -1,0 +1,9 @@
+node_modules/
+.tmp
+app-debug.log
+npm-debug.log
+dist/
+logs/*.log
+crons/*.log
+tmp/
+untitled.sublime-workspace
