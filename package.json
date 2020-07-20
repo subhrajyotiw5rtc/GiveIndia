@@ -1,0 +1,26 @@
+{
+  "name": "giveindia",
+  "version": "1.0.0",
+  "description": "Account transcations APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app"
+  },
+  "author": "subhrajyoti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "fs": "0.0.1-security",
+    "helmet": "^3.23.3",
+    "http": "0.0.1-security",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.24",
+    "xss-clean": "^0.1.1"
+  }
+}

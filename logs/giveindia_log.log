@@ -1,0 +1,82 @@
+Error: 17-07-2020 15:45:37 - customer is not defined in models
+Error: 17-07-2020 15:45:37 - TypeError: Cannot read property 'create' of null
+    at DemoProjectService.addCustomer (/home/anil/Desktop/giveindia/service/customer.service.js:62:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DemoProjectController.addCustomer (/home/anil/Desktop/giveindia/controller/customer.controller.js:34:17)
+-----------------------------------
+Error: 17-07-2020 15:47:09 - ReferenceError: Customer is not defined
+    at DemoProjectService.getCustomer (/home/anil/Desktop/giveindia/service/customer.service.js:34:4)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DemoProjectController.getCustomer (/home/anil/Desktop/giveindia/controller/customer.controller.js:17:17)
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Error: 17-07-2020 17:55:09 - Account is not defined in models
+Error: 17-07-2020 17:55:09 - ReferenceError: logger is not defined
+    at DemoProjectService.createAccount (/home/anil/Desktop/giveindia/service/account.service.js:44:4)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DemoProjectController.createAccount (/home/anil/Desktop/giveindia/controller/account.controller.js:33:17)
+-----------------------------------
+Error: 17-07-2020 17:57:29 - Account is not defined in models
+Error: 17-07-2020 17:57:29 - TypeError: Cannot read property 'create' of null
+    at DemoProjectService.createAccount (/home/anil/Desktop/giveindia/service/account.service.js:34:43)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DemoProjectController.createAccount (/home/anil/Desktop/giveindia/controller/account.controller.js:33:17)
+-----------------------------------
+-----------------------------------
+-----------------------------------
+-----------------------------------
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Error: 20-07-2020 09:52:04 - Error: Same user balance transcation is not available.
+    at setError (/home/anil/Desktop/giveindia/utill/exception.util.js:7:17)
+    at DemoProjectService.transferBalance (/home/anil/Desktop/giveindia/service/account.service.js:121:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DemoProjectController.transferBalance (/home/anil/Desktop/giveindia/controller/account.controller.js:16:17)
+-----------------------------------
+Error: 20-07-2020 10:07:29 - TypeError: session.startTransaction is not a function
+    at DemoProjectService.transferBalance (/home/anil/Desktop/giveindia/service/account.service.js:110:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DemoProjectController.transferBalance (/home/anil/Desktop/giveindia/controller/account.controller.js:16:17)
+-----------------------------------
+Error: 20-07-2020 10:11:48 - Error: Same user balance transcation is not available.
+    at setError (/home/anil/Desktop/giveindia/utill/exception.util.js:7:17)
+    at DemoProjectService.transferBalance (/home/anil/Desktop/giveindia/service/account.service.js:128:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DemoProjectController.transferBalance (/home/anil/Desktop/giveindia/controller/account.controller.js:16:17)
+-----------------------------------
+-----------------------------------
+Error: 20-07-2020 10:26:57 - MongoError: Transaction numbers are only allowed on a replica set member or mongos
+    at MessageStream.messageHandler (/home/anil/Desktop/giveindia/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:321:20)
+    at processIncomingData (/home/anil/Desktop/giveindia/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/anil/Desktop/giveindia/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:454:12)
+    at writeOrBuffer (_stream_writable.js:436:5)
+    at MessageStream.Writable.write (_stream_writable.js:327:11)
+    at Socket.ondata (_stream_readable.js:708:22)
+    at Socket.emit (events.js:321:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+    at Socket.Readable.push (_stream_readable.js:214:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+-----------------------------------
+Error: 20-07-2020 10:30:59 - MongoError: Transaction numbers are only allowed on a replica set member or mongos
+    at MessageStream.messageHandler (/home/anil/Desktop/giveindia/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:321:20)
+    at processIncomingData (/home/anil/Desktop/giveindia/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/anil/Desktop/giveindia/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:454:12)
+    at writeOrBuffer (_stream_writable.js:436:5)
+    at MessageStream.Writable.write (_stream_writable.js:327:11)
+    at Socket.ondata (_stream_readable.js:708:22)
+    at Socket.emit (events.js:321:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+    at Socket.Readable.push (_stream_readable.js:214:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+-----------------------------------
+-----------------------------------
+-----------------------------------
+-----------------------------------
